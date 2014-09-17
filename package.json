@@ -1,0 +1,47 @@
+{
+  "author": "Jonathan Krause <jony@jonathan-krause.de> (http://jonykrau.se/)",
+  "name": "personal-website",
+  "version": "0.1.0-206",
+  "description": "",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-js": "browserify ./app/client/index.js -t reactify | uglifyjs -mc unsafe=true > ./public/js/bundle.js",
+    "watch-js": "watchify ./app/index.js -t reactify -o ./public/js/bundle.js -dv",
+    "build-css": "uglifycss ./public/css/style.css > ./public/css/bundle.css",
+    "predeploy": "npm run build-js && npm run build-css",
+    "clean": "rm ./public/js/bundle.js"
+  },
+  "dependencies": {
+    "bluebird": "~1.2.0",
+    "body-parser": "^1.8.2",
+    "compression": "^1.1.0",
+    "errorhandler": "^1.2.0",
+    "express": "~4.9.1",
+    "fibers": "~1.0.1",
+    "highlight.js": "~8.0.0",
+    "http-proxy": "~1.0.3",
+    "marked": "~0.3.2",
+    "morgan": "^1.3.1",
+    "node-jsx": "~0.9.0",
+    "react": "~0.11.2",
+    "react-async": "~1.0.2",
+    "react-router-component": "~0.20.1",
+    "rss": "~0.3.2",
+    "serve-static": "^1.6.2",
+    "slug": "~0.4.2",
+    "yamlhead": "~0.1.0"
+  },
+  "devDependencies": {
+    "connect-browserify": "~2.0.0",
+    "reactify": "~0.10.0"
+  },
+  "engines": {
+    "node": "~0.10.26"
+  },
+  "subdomain": "jonykrause",
+  "domains": [
+    "jonykrau.se",
+    "www.jonykrau.se"
+  ]
+}
