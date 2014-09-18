@@ -20,13 +20,19 @@ var App = React.createClass({
 
   propTypes: {state: React.PropTypes.object.isRequired},
 
+  getTitleFromPath: function(path) {
+    var page = path.split('/').pop().replace(new RegExp('[-]', 'g'), ' ');
+    return page.length ? page.charAt(0).toUpperCase() + page.slice(1) + ' /' : '';
+  },
+
   render: function() {
+    var title = this.getTitleFromPath(this.props.path)
     var posts = this.props.state.posts;
     return (
       <html>
         <head>
           <meta charSet="utf-8" />
-          <title>Jonathan Krause @jonykrause, Front–end developer</title>
+          <title>{title} Jonathan Krause @jonykrause, Front–end developer</title>
           <meta name="description" content="Jonathan Krause, Front-end Developer" />
           <meta name="robots" content="index, follow" />
           <meta name="author" content="Jonathan Krause @jonykrause" />
