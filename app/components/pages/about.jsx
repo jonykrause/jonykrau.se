@@ -11,9 +11,9 @@ var About = React.createClass({
       <Layout>
         <article className="post">
           <header>
-            <h1 itemprop="headline" className="post__heading">About me</h1>
+            <h1 itemProp="headline" className="post__heading">About me</h1>
           </header>
-          <div itemprop="articleBody" className="post__content">
+          <div itemProp="articleBody" className="post__content">
             <figure className="myface--big">
               <img alt="Picture of Jonathan Krause" width={220} height={220} src="/img/jony.jpg" />
             </figure>

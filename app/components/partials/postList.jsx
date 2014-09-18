@@ -19,8 +19,8 @@ var Posts = React.createClass({
       }
     });
     return (
-      <div itemscope="" itemType="http://schema.org/Blog">
-        <ul itemscope="" itemType="http://schema.org/BlogPosts" className="post-list">
+      <div itemScope="" itemType="http://schema.org/Blog">
+        <ul itemScope="" itemType="http://schema.org/BlogPosts" className="post-list">
           {posts}
         </ul>
       </div>

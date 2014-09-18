@@ -18,7 +18,7 @@ var NotFoundPage = require('./pages/notFound');
 
 var App = React.createClass({
 
-  propTypes: {state: React.PropTypes.array.isRequired},
+  propTypes: {state: React.PropTypes.object.isRequired},
 
   render: function() {
     var posts = this.props.state.posts;

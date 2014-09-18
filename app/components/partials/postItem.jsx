@@ -12,8 +12,8 @@ var Link = ReactRouter.Link;
 var PostLink = React.createClass({
   renderLink: function() {
     return !this.props.linkpost ?
-      <Link href={'/posts/' + this.props.url} itemprop="url" className="post-list__item">{ this.props.children }</Link> :
-      <a target="_blank" href={this.props.linkpost} itemprop="url" className="post-list__item lp">{ this.props.children }</a>
+      <Link href={'/posts/' + this.props.url} itemProp="url" className="post-list__item">{ this.props.children }</Link> :
+      <a target="_blank" href={this.props.linkpost} itemProp="url" className="post-list__item lp">{ this.props.children }</a>
   },
 
   render: function() {

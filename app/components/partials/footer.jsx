@@ -19,13 +19,13 @@ var Adress = React.createClass({
   render: function() {
     return (
       <address className="address">
-        <span itemprop="name">Jonathan Krause</span>
+        <span itemProp="name">Jonathan Krause</span>
         <div className="is-hidden">
-          <span itemprop="birthDate">06.07.1987</span><span itemprop="deathDate">unknown</span><span itemprop="image">http://jonykrau.se/images/jony-small.jpg</span><span itemprop="worksFor">Edenspiekermann AG</span>
+          <span itemProp="birthDate">06.07.1987</span><span itemProp="deathDate">unknown</span><span itemProp="image">http://jonykrau.se/images/jony-small.jpg</span><span itemProp="worksFor">Edenspiekermann AG</span>
         </div>
-        <span className="sep">·</span><span itemprop="jobTitle" className="is-hidden">Front-end Developer</span><span itemscope="" itemprop="address" itemtype="http://schema.org/PostalAddress"><span itemprop="postalCode">10439</span><span itemprop="addressLocality"> Berlin</span></span>
+        <span className="sep">·</span><span itemProp="jobTitle" className="is-hidden">Front-end Developer</span><span itemScope="" itemProp="address" itemType="http://schema.org/PostalAddress"><span itemProp="postalCode">10439</span><span itemProp="addressLocality"> Berlin</span></span>
         <div>
-          <a href="mailto:jony@jonathan-krause.de" itemprop="email">jony@jonathan-krause.de</a>
+          <a href="mailto:jony@jonathan-krause.de" itemProp="email">jony@jonathan-krause.de</a>
           <TwitterFollow />
         </div>
       </address>
@@ -35,7 +35,7 @@ var Adress = React.createClass({
 var VCard = React.createClass({
   render: function() {
     return (
-      <div itemscope="" itemtype="http://schema.org/Person" className="vcard">
+      <div itemScope="" itemType="http://schema.org/Person" className="vcard">
         <figure className="myface">
           <img alt="Picture of Jonathan Krause" width="66" height="66" src="/img/jony-small.jpg" />
         </figure>
