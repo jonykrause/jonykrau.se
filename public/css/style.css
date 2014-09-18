@@ -376,9 +376,6 @@ a.is-active:visited {
    width: 95%;
 }
 
-.page-content {
-  min-height: 600px;
-}
 /* line 71, ../../../src/client/stylesheets/partials/base.sass */
  .page-footer {
    padding-top: 3.725em;
