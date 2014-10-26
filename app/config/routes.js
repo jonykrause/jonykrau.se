@@ -1,8 +1,8 @@
 var path = require('path');
 var httpAuth = require('http-auth');
 var basicAuth = httpAuth.basic({
-  realm: "Simon Area.",
-  file: '.htpasswd'
+  realm: 'CV',
+  file: __dirname + '/.htpasswd'
 });
 
 

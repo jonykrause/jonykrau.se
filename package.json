@@ -1,17 +1,14 @@
 {
   "author": "Jonathan Krause <jony@jonathan-krause.de> (http://jonykrau.se/)",
   "name": "personal-website",
-  "version": "0.1.0-209",
+  "version": "0.1.0-224",
   "description": "",
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon -e js,jsx index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-js": "browserify ./app/client/index.js -t reactify | uglifyjs -mc unsafe=true > ./public/js/bundle.js",
-    "watch-js": "watchify ./app/index.js -t reactify -o ./public/js/bundle.js -dv",
     "build-css": "uglifycss ./public/css/style.css > ./public/css/bundle.css",
-    "predeploy": "npm run build-js && npm run build-css",
-    "clean": "rm ./public/js/bundle.js"
+    "predeploy": "npm run build-css"
   },
   "dependencies": {
     "bluebird": "~1.2.0",
