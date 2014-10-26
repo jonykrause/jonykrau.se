@@ -569,6 +569,13 @@ a.is-active:visited {
  .tw-follow {
    margin-top: 0.25em;
 }
+
+
+
+
+
+
+
  @media only screen and (min-width: 768px) {
   /* line 241, ../../../src/client/stylesheets/partials/base.sass */
    body {
@@ -849,3 +856,77 @@ a.is-active:visited {
 .xml .hljs-cdata {
   opacity: 0.5;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* cv */
+
+.cv h2 {
+  font-size: 1.25em;
+}
+
+.cv__heading span {
+  font-family: "TundraWebPro", Georgia, Times, serif;
+}
+
+.cv-data {
+  font-size: 0.8em;
+  margin-top: 1.4em;
+  margin-bottom: 1.8em;
+}
+
+.cv-data__ent {
+  line-height: 1.33;
+}
+
+.cv-data__key {
+  color: #565656;
+  padding-top: 0.6em;
+  padding-bottom: 0.6em;
+  padding-right: 0.6em;
+  text-align: right;
+}
+
+.cv-data__val {
+  padding-top: 0.6em;
+  padding-bottom: 0.6em;
+  padding-left: 0.6em;
+  text-align: left;
+}
+
+.cv-data-projects-list li:first-child,
+.cv-data-projects-list li:nth-of-type(2) {
+  font-size: 1em;
+  margin-bottom: 0.5em;
+}
+
+
+.cv-data-projects-list li:nth-of-type(2) {
+  margin-bottom: 1em;
+}
+
+
+.cv-data-projects-list h3 {
+  display: inline;
+  font-size: 1em;
+  margin-right: 0.1em;
+}
+

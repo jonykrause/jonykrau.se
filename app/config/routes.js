@@ -1,5 +1,16 @@
+var path = require('path');
+var httpAuth = require('http-auth');
+var basicAuth = httpAuth.basic({
+  realm: "Simon Area.",
+  file: path.resolve(__dirname, '../../.htpasswd')
+});
+
 
 module.exports = function(app) {
+
+  app.get('/cv', httpAuth.connect(basicAuth), function(req, res, next) {
+    return next();
+  });
 
   // Handle legacy urls
 
