@@ -6,6 +6,7 @@ var React = require('react');
 var FormattedDate = require('../partials/formattedDate');
 var Pagination = require('../partials/pagination');
 var Layout = require('../layout');
+var NotFoundPage = require('../pages/notFound');
 
 var Post = React.createClass({
 
@@ -15,6 +16,10 @@ var Post = React.createClass({
     var post = this.props.posts.filter(function(post) {
       return post.slug === slug;
     })[0];
+
+    if (!post) {
+      return NotFoundPage();
+    }
 
     return (
       <Layout>
