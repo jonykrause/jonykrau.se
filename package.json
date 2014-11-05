@@ -1,7 +1,7 @@
 {
   "author": "Jonathan Krause <jony@jonathan-krause.de> (http://jonykrau.se/)",
   "name": "personal-website",
-  "version": "0.1.0-225",
+  "version": "0.1.0-226",
   "description": "",
   "scripts": {
     "start": "node index.js",
