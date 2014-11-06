@@ -892,13 +892,19 @@ a.is-active:visited {
 .cv h2 {
   font-size: 1.25em;
   margin-top: 1.8em;
-  margin-bottom: 0.4em;
+  margin-bottom: 0.8em;
 }
 
 .cv p {
   font-size: 0.8em;
   max-width: 30em;
   margin-bottom: 1.8em;
+}
+
+.cv__heading {
+  font-size: 1.8em;
+  line-height: 1.15;
+  margin-bottom: 1em;
 }
 
 .cv__heading span {
@@ -911,6 +917,10 @@ a.is-active:visited {
   padding: 0;
   padding-left: 1em;
   margin-top: 0;
+}
+
+.cv-data li{
+  margin-bottom: 0.2em;
 }
 
 .cv-data--vcard {
@@ -948,6 +958,7 @@ a.is-active:visited {
 
 .cv-data-projects-list ul {
   margin-top: 0.5em;
+  padding: 0;
 }
 
 .cv-data-projects-list h3 {
