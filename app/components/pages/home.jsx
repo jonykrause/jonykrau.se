@@ -14,7 +14,6 @@ var Home = React.createClass({
       <Layout>
         <h1 className="f-welcome">
           Hi, I’m <strong>Jonathan</strong> — <br/> Front-end Developer <br/>
-          at <a href="http://www.edenspiekermann.com">Edenspiekermann</a>
         </h1>
         <PostList itemCount={3} posts={this.props.posts} />
       </Layout>

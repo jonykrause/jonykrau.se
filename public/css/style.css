@@ -970,3 +970,8 @@ a.is-active:visited {
 .cv-data-projects-list ul li {
   margin-bottom: 0.5em;
 }
+
+.cv-pdf {
+  font-size: .8em;
+  float: right;
+}
