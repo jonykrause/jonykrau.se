@@ -17,7 +17,7 @@ var About = React.createClass({
             <figure className="myface--big">
               <img alt="Picture of Jonathan Krause" width={220} height={220} src="/img/jony.jpg" />
             </figure>
-            <p>Hey, my name is Jonathan Krause — I would call myself a front-end developer (you know those job titles). I am currently living in Berlin, Germany, working full-time at<a href="http://www.edenspiekermann.com"> Edenspiekermann</a>. I am a passionate
+            <p>Hey, my name is Jonathan Krause — I would call myself a front-end developer (you know those job titles). I am currently living in Berlin, Germany, working full-time as a Front-end Engineer. I am a passionate
               web developer, believing in Unix philosophy form- and function-wise. I love effective and fast user interfaces that bring real value to people. I appreciate logical, user-centered design approaches. Therefore I strive to use technologies and
               methodologies that deliver the best possible user experience, trying to concentrate on simple, focused and concise development.</p>
             <p>I like tinkering with front-end performance, the latest HTML, CSS and especially JavaScript stuff. To complete the story, I want to mention that I have a degree in application development and in the past used to work in the more enterprise-oriented

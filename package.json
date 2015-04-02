@@ -1,7 +1,7 @@
 {
   "author": "Jonathan Krause <jony@jonathan-krause.de> (http://jonykrau.se/)",
   "name": "personal-website",
-  "version": "0.1.0-231",
+  "version": "0.1.0-232",
   "description": "",
   "scripts": {
     "start": "node index.js",
@@ -29,11 +29,13 @@
     "rss": "~0.3.2",
     "serve-static": "^1.6.2",
     "slug": "~0.4.2",
+    "uglifycss": "0.0.13",
     "yamlhead": "~0.1.0"
   },
   "devDependencies": {
     "connect-browserify": "~2.0.0",
-    "reactify": "~0.10.0"
+    "reactify": "~0.10.0",
+    "uglifycss": "0.0.13"
   },
   "engines": {
     "node": "~0.10.26"
