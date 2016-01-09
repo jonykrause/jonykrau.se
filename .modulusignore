@@ -1,0 +1,5 @@
+node_modules/
+npm-debug.log
+.htpasswd
+vita.jsx
+.pdf

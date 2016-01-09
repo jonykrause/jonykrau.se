@@ -25,8 +25,9 @@ app.use(require('../../lib/renderReactComponent')(app));
 
 // Start server
 var server = http.createServer(app);
-return server.listen(app.get('port'), function() {
-  return console.log('Listening on port ' + app.get('port') + ', Env: ' + app.settings.env);
+var port = process.env.PORT || 3000;
+return server.listen(port, function() {
+  return console.log('Listening on port ' + port + ', Env: ' + app.settings.env);
 });
 
 module.exports = app;
