@@ -11,11 +11,11 @@
     "predeploy": "npm run build-css"
   },
   "dependencies": {
-    "bluebird": "~1.2.0",
+    "bluebird": "latest",
     "body-parser": "^1.8.2",
     "compression": "^1.1.0",
     "errorhandler": "^1.2.0",
-    "express": "~4.9.1",
+    "express": "latest",
     "fibers": "~1.0.1",
     "highlight.js": "~8.0.0",
     "http-auth": "^2.2.0",
@@ -26,11 +26,11 @@
     "react": "~0.11.2",
     "react-async": "~1.0.2",
     "react-router-component": "~0.20.1",
-    "rss": "~0.3.2",
-    "serve-static": "^1.6.2",
-    "slug": "~0.4.2",
-    "uglifycss": "0.0.13",
-    "yamlhead": "~0.1.0"
+    "rss": "latest",
+    "serve-static": "latest",
+    "slug": "latest",
+    "uglifycss": "latest",
+    "yamlhead": "latest"
   },
   "devDependencies": {
     "connect-browserify": "~2.0.0",
