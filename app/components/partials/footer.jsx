@@ -25,7 +25,7 @@ var Adress = React.createClass({
         </div>
         <span className="sep">·</span><span itemProp="jobTitle" className="is-hidden">Front-end Engineer</span><span itemScope="" itemProp="address" itemType="http://schema.org/PostalAddress"><span itemProp="postalCode">15712</span><span itemProp="addressLocality"> Berlin</span></span>
         <div>
-          <a href="mailto:jony@jonathan-krause.de" itemProp="email">buero@jonathan-krause.de</a>
+          <a href="mailto:buero@jonathan-krause.de" itemProp="email">buero@jonathan-krause.de</a>
           <TwitterFollow />
         </div>
       </address>

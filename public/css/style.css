@@ -388,6 +388,9 @@ a.is-active:visited {
    margin-top: 1.4625em;
    margin-bottom: 0.73125em;
 }
+ .f-welcome a {
+  color: #1a1a1a !important;
+}
 /* line 81, ../../../src/client/stylesheets/partials/base.sass */
  .section-heading {
    font-size: 1.25em;

@@ -13,10 +13,11 @@ var Home = React.createClass({
     return (
       <Layout>
         <h1 className="f-welcome">
-          Hi, I’m <strong>Jonathan</strong> — <br/> Front-end Engineer<br/>
+          Hi, I’m <strong><a title="some people call me Jony" href="http://jonykrau.se/about">Jonathan</a></strong> — <br/>
+          <span title="Node.js, JavaScript, Software Engineer, Architecturing with Micro-Services">Front-end Engineer</span><br/>
           currently with
           {" "}
-          <a href="http://www.ebayclassifiedsgroup.com/">
+          <a title="eBay Classifieds Group" href="http://www.ebayclassifiedsgroup.com/">
           <span style={{ color: "#e53238"}}>e</span>
           <span style={{ color: "#0064d3"}}>B</span>
           <span style={{ color: "#f4ae01"}}>a</span>
