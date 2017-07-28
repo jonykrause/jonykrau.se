@@ -1,16 +1,19 @@
 var path = require('path');
-// var httpAuth = require('http-auth');
-// var basicAuth = httpAuth.basic({
-//   realm: 'CV',
-//   file: __dirname + '/.htpasswd'
-// });
 
 
 module.exports = function(app) {
 
-  // app.get('/cv', httpAuth.connect(basicAuth), function(req, res, next) {
-  //   return next();
-  // });
+  if (process.env.NODE_ENV === "production") {
+    var httpAuth = require('http-auth');
+    var basicAuth = httpAuth.basic({
+      realm: 'CV',
+      file: __dirname + '/.htpasswd'
+    });
+
+    app.get('/cv', httpAuth.connect(basicAuth), function(req, res, next) {
+      return next();
+    });
+  }
 
   // Handle legacy urls
 

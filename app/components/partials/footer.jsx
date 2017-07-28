@@ -23,9 +23,9 @@ var Adress = React.createClass({
         <div className="is-hidden">
           <span itemProp="birthDate">06.07.1987</span><span itemProp="deathDate">unknown</span><span itemProp="image">http://jonykrau.se/images/jony-small.jpg</span><span itemProp="worksFor"></span>
         </div>
-        <span className="sep">·</span><span itemProp="jobTitle" className="is-hidden">Front-end Developer</span><span itemScope="" itemProp="address" itemType="http://schema.org/PostalAddress"><span itemProp="postalCode">10437</span><span itemProp="addressLocality"> Berlin</span></span>
+        <span className="sep">·</span><span itemProp="jobTitle" className="is-hidden">Front-end Engineer</span><span itemScope="" itemProp="address" itemType="http://schema.org/PostalAddress"><span itemProp="postalCode">15712</span><span itemProp="addressLocality"> Berlin</span></span>
         <div>
-          <a href="mailto:jony@jonathan-krause.de" itemProp="email">jony@jonathan-krause.de</a>
+          <a href="mailto:jony@jonathan-krause.de" itemProp="email">buero@jonathan-krause.de</a>
           <TwitterFollow />
         </div>
       </address>
