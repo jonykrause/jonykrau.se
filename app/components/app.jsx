@@ -33,12 +33,12 @@ var App = React.createClass({
       <html>
         <head>
           <meta charSet="utf-8" />
-          <title>{title} Jonathan Krause @jonykrause, Front–end developer</title>
-          <meta name="description" content="Jonathan Krause, Front-end Developer" />
+          <title>{title} Jonathan Krause @jonykrause, Front-end Software Engineer</title>
+          <meta name="description" content="Jonathan Krause, Front-end Software Engineer" />
           <meta name="robots" content="index, follow" />
           <meta name="author" content="Jonathan Krause @jonykrause" />
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-          <meta name="keywords" content="༼☉ɷ⊙༽" />
+          <meta name="keywords" content="\_(ツ)_/¯" />
           <link type="text/plain" rel="author" href="/humans.txt" />
           <link rel="icon" href="/favicon.ico" />
           <link href="/rss.xml" type="application/rss+xml" rel="alternate" />
