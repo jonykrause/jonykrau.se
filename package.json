@@ -5,7 +5,7 @@
   "description": "",
   "scripts": {
     "start": "NODE_ENV=production pm2 start index.js",
-    "dev": "nodemon -e js,jsx index.js",
+    "dev": "npm run prestart && nodemon -e js,jsx index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "prestart": "uglifycss ./public/css/style.css > ./public/css/bundle.css"
   },
