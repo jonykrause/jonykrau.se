@@ -39,6 +39,22 @@ var App = React.createClass({
           <meta name="author" content="Jonathan Krause @jonykrause" />
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
           <meta name="keywords" content="\_(ツ)_/¯" />
+
+          <meta itemProp="name" content={`${title} Jonathan Krause @jonykrause, Front-end Software Engineer`}>
+          <meta itemProp="description" content="Jonathan Krause @jonykrause, Front-end Software Engineer">
+
+          <meta property="og:title" content="Jonathan Krause">
+          <meta property="og:type" content="website">
+          <meta property="og:url" content="http://jonykrau.se">
+          <meta property="og:image" content="http://jonykrau.se/img/jony.jpg">
+          <meta property="og:image:type" content="image/jpeg">
+          <meta property="og:image:width" content="1000">
+          <meta property="og:image:height" content="1000">
+          <meta property="og:description" content="Jonathan Krause @jonykrause, Front-end Software Engineer">
+          <meta name="twitter:card" content="summary">
+          <meta name="twitter:site" content="@jonykrause">
+          <meta name="twitter:creator" content="@jonykrause">
+
           <link type="text/plain" rel="author" href="/humans.txt" />
           <link rel="icon" href="/favicon.ico" />
           <link href="/rss.xml" type="application/rss+xml" rel="alternate" />
