@@ -34,7 +34,7 @@ var App = React.createClass({
         <head>
           <meta charSet="utf-8" />
           <title>{title} Jonathan Krause @jonykrause, Front-end Software Engineer</title>
-          <meta name="description" content="Jonathan Krause, Front-end Software Engineer" />
+          <meta name="description" content="Jonathan Krause @jonykrause, Front-end Software Engineer" />
           <meta name="robots" content="index, follow" />
           <meta name="author" content="Jonathan Krause @jonykrause" />
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />

@@ -2,4 +2,6 @@ node_modules/
 npm-debug.log
 .htpasswd
 vita.jsx
-.pdf
+*.pdf
+public/css/bundle.css
+public/rss.xml

@@ -24,24 +24,28 @@ var ActiveLink = React.createClass({
 
 var Header = React.createClass({
   render: function() {
+    var activeClassName = "is-active";
     return (
       <header role="banner" className="page-header l-module">
         <nav role="navigation" className="page-nav">
           <ul className="item-list">
             <li>
-              <ActiveLink href="/" activeClassName="is-active">Home</ActiveLink>
+              <ActiveLink href="/" activeClassName={activeClassName}>Home</ActiveLink>
             </li>
             <li>
-              <ActiveLink href="/posts" activeClassName="is-active">Blog</ActiveLink>
+              <ActiveLink href="/posts" activeClassName={activeClassName}>Blog</ActiveLink>
             </li>
             <li>
-              <ActiveLink href="/about" activeClassName="is-active">About</ActiveLink>
+              <ActiveLink href="/about" activeClassName={activeClassName}>About</ActiveLink>
             </li>
             <li>
               <a href="https://twitter.com/jonykrause">Twitter</a>
             </li>
             <li>
               <a href="https://github.com/jonykrause">Github</a>
+            </li>
+            <li>
+              <a href="https://instagram.com/jonykrause">Instagram</a>
             </li>
           </ul>
         </nav>
