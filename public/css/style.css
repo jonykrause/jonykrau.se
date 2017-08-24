@@ -876,6 +876,7 @@ a.is-active:visited {
   padding-bottom: 0.6em;
   padding-right: 0.6em;
   text-align: right;
+  width: 135px;
 }
 
 .cv-data__val {
@@ -907,4 +908,9 @@ a.is-active:visited {
 .cv-pdf {
   font-size: .8em;
   float: right;
+}
+
+.emph {
+  font-style: normal;
+  color: #565656
 }
