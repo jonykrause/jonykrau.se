@@ -808,11 +808,6 @@ a.is-active:visited {
 
 
 
-@media only screen and (min-width: 480px) {
-  .cv-data-projects-list ul {
-    font-size: 0.9rem;
-  }
-}
 
 @media only screen and (max-width: 480px) {
   .cv {
@@ -867,6 +862,7 @@ a.is-active:visited {
 }
 
 .cv-data__ent {
+  width: 135px;
   line-height: 1.33;
 }
 
@@ -891,18 +887,18 @@ a.is-active:visited {
 }
 
 .cv-data-projects-list ul {
-  margin-top: 0.5em;
+  margin-top: 0.8em;
   padding: 0;
 }
 
 .cv-data-projects-list h3 {
   display: inline;
-  font-size: 1em;
+  font-size: 1.1em;
   margin-right: 0.1em;
 }
 
 .cv-data-projects-list ul li {
-  margin-bottom: 0.5em;
+  margin-bottom: 0.15em;
 }
 
 .cv-pdf {
