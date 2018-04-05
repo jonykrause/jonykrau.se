@@ -16,7 +16,7 @@ module.exports = function(app) {
     });
   }
 
-  app.post('/rides', bodyParser.json(), function(req, res) {
+  app.post('/rides', bodyParser.urlencoded({ extended: false }), function(req, res) {
     cache.set("tracking", req.body, function(err) {
       if (err) {
         console.err(err);
