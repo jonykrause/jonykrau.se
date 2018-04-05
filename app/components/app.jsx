@@ -30,7 +30,6 @@ var App = React.createClass({
   render: function() {
     var title = this.getTitleFromPath(this.props.path)
     var posts = this.props.state.posts;
-    console.log('this.props.state: ', this.props.state);
     return (
       <html>
         <head>
@@ -68,7 +67,7 @@ var App = React.createClass({
           <Page path="/posts/:slug" handler={Post} posts={posts} />
           <Page path="/about" handler={About} />
           <Page path="/cv" handler={Vita} />
-          <Page path="/rides" handler={TrackMap} />
+          <Page path="/rides" handler={TrackMap} tracking={this.props.state.tracking} />
           <NotFound handler={NotFoundPage} />
         </Pages>
       </html>
