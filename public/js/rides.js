@@ -5,6 +5,6 @@ const osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
 const osmAttrib='Map data © <a href="http://openstreetmap.org">OpenStreetMap</a> contributors';
 const osm = new L.TileLayer(osmUrl, { minZoom: 8, maxZoom: 18, attribution: osmAttrib });
 const marker = L.marker([Number(lat), Number(lon)]).addTo(map);
-marker.bindPopup(`Time: ${time}, Battery: ${battery}`).openPopup();
+marker.bindPopup(`Time: ${new Date(time)}, Battery: ${battery}%`).openPopup();
 map.setView(new L.LatLng(Number(lat), Number(lon)), 16);
 map.addLayer(osm);
