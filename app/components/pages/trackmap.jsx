@@ -19,9 +19,10 @@ var TrackMap = React.createClass({
             <h2>Follow the route</h2>
             <small>via Spotwalla</small>
             <div dangerouslySetInnerHTML={{ __html: spotwalla }} />
-            <h2>See latest position</h2>
+            <h2>Live tracking</h2>
             <small>via Locus</small>
             <div dangerouslySetInnerHTML={{ __html: locus }} />
+            <h2>See latest position</h2>
         </div>
       </Layout>
     );

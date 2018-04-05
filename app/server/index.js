@@ -4,6 +4,7 @@ var env = process.env.NODE_ENV || 'development';
 var express = require('express');
 var http = require('http');
 var getPosts = require('../../lib/getPosts');
+
 var app = express();
 
 app.set('state', {});

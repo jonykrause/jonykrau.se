@@ -1,8 +1,9 @@
 var path = require('path');
+var bodyParser = require('body-parser');
+const cache = require('../server/cache');
 
 
 module.exports = function(app) {
-
   if (process.env.NODE_ENV === "production") {
     var httpAuth = require('http-auth');
     var basicAuth = httpAuth.basic({
@@ -15,8 +16,16 @@ module.exports = function(app) {
     });
   }
 
-  // Handle legacy urls
+  app.post('/rides', bodyParser.json(), function(req, res) {
+    cache.set("tracking", req.body, function(err) {
+      if (err) {
+        console.err(err);
+      }
+      res.end();
+    });
+  });
 
+  // Handle legacy urls
   app.get('/rainforest', function(req, res) {
     return res.send(require('../components/pages/legacy-rainforest')());
   });

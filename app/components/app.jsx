@@ -30,6 +30,7 @@ var App = React.createClass({
   render: function() {
     var title = this.getTitleFromPath(this.props.path)
     var posts = this.props.state.posts;
+    console.log('this.props.state: ', this.props.state);
     return (
       <html>
         <head>
