@@ -13,7 +13,8 @@ var locus = '<iframe class="spotwalla" src="https://live-track.locusmap.eu/room/
 
 var TrackMap = React.createClass({
   render: function() {
-    console.log('props: ', this.props);
+    const { lat, lon, acc, time, battery } = this.props.tracking;
+    console.log(lat, lon, acc, time, battery);
     return (
       <Layout>
         <div className="post">
