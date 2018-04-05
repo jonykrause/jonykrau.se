@@ -12,7 +12,8 @@ var spotwalla = '<iframe class="spotwalla" src="https://spotwalla.com/embed.php?
 var locus = '<iframe class="spotwalla" src="https://live-track.locusmap.eu/room/J5IK-SF5Q" width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>';
 
 var TrackMap = React.createClass({
-  render: function(props) {
+  render: function() {
+    console.log('props: ', this.props);
     return (
       <Layout>
         <div className="post">
@@ -23,9 +24,6 @@ var TrackMap = React.createClass({
             <small>via Locus</small>
             <div dangerouslySetInnerHTML={{ __html: locus }} />
             <h2>See latest position</h2>
-            <div>
-              {this.props.tracking}
-            </div>
         </div>
       </Layout>
     );
