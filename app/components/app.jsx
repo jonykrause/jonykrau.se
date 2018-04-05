@@ -14,6 +14,7 @@ var About = require('./pages/about');
 var Posts = require('./pages/posts');
 var Post = require('./pages/post');
 var Vita = require('./pages/vita');
+var TrackMap = require('./pages/trackmap');
 var NotFoundPage = require('./pages/notFound');
 
 
@@ -66,6 +67,7 @@ var App = React.createClass({
           <Page path="/posts/:slug" handler={Post} posts={posts} />
           <Page path="/about" handler={About} />
           <Page path="/cv" handler={Vita} />
+          <Page path="/rides" handler={TrackMap} />
           <NotFound handler={NotFoundPage} />
         </Pages>
       </html>

@@ -15,7 +15,7 @@
     "compression": "^1.1.0",
     "errorhandler": "^1.2.0",
     "express": "latest",
-    "fibers": "~1.0.1",
+    "fibers": "latest",
     "highlight.js": "~8.0.0",
     "http-auth": "^2.2.0",
     "http-proxy": "~1.0.3",
@@ -33,12 +33,12 @@
     "yamlhead": "latest"
   },
   "devDependencies": {
-    "connect-browserify": "~2.0.0",
-    "reactify": "~0.10.0",
-    "uglifycss": "0.0.13"
+    "connect-browserify": "latest",
+    "reactify": "latest",
+    "uglifycss": "latest"
   },
   "engines": {
-    "node": "0.12.7"
+    "node": "6.11.0"
   },
   "subdomain": "jonykrause",
   "domains": [
