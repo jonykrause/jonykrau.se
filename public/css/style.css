@@ -910,3 +910,5 @@ a.is-active:visited {
   font-style: normal;
   color: #565656
 }
+
+#leafletMap { height: 180px; }
